@@ -28,3 +28,11 @@ This file is intentionally not committed to Git.
 dotnet build .\AiEmailTranslator\AiEmailTranslator.csproj
 dotnet publish .\AiEmailTranslator\AiEmailTranslator.csproj -c Release
 ```
+
+## Download
+
+A self-contained Windows x64 executable is available in:
+
+`dist/AiEmailTranslator.exe`
+
+It is tracked with Git LFS because the standalone executable includes the required .NET runtime files.
